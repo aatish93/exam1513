@@ -6,6 +6,7 @@ public class Car {
 		capacity=cap;
 	}
 	public int getEngineCapacity(){
-		return capacity;
+		System.out.println("The Capacity is: "+capacity/100+"cc");
+		return capacity/100;
 	}
 }
